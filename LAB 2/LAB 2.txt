@@ -1,0 +1,35 @@
+LAB 2
+PACKET TRACER - DEPLOY DEVICES
+
+Assigning the Ip address to a device
+When we are assigning IP address to a device, it is known as static ip address. For dynamic, the ip address is assigned automatically.
+The subnet mask comes along with the IP address
+
+Each device has its own unique ip address
+
+Verifying connection
+Once the connection is done, we can verify the connection of the network through two ways
+
+-pinging the ip address of the particular device through the command prompt.
+type cmd to access the command prompt
+enter the command ping followed by the ip address (Eg: ping 192.168.1.1)
+
+-typing the ip address in the web browser of the device.
+
+Changing the hostname of the device
+There are two ways of changing the hostname of the device:
+-Using the Config tab
+-Using the command line interface (CLI) tab
+
+
+To head to the config tab, Click on the device, head to the config tab and change the hostname.
+To head to the CLI tab, click on the device, head to the CLI tab.
+
+Shutting down a particular interface
+-Head to the config tab, under the interface tab, select the particular port you wish to shut down. After that, head to the
+CLI tab and type in the command shutdown.
+
+The lights between the devices which the interface is shutdown will turn red as the connection is no longer active.
+
+
+
