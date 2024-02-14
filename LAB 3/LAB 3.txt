@@ -1,0 +1,38 @@
+LAB 3 
+
+PART A. TRACE ROUTE
+Data travels through 2 points, which is from the source to the destination.
+
+DNS = Domain Name System (DNS translates domain names to IP addresses so browsers can load Internet resources.)
+ICMP = Internet control master protocol
+Number of Hops = Number of routers the packet needs to travel to reach the destination.
+TTL = Time to live (time taken to transfer packet from one router to another/ time between hops)
+
+
+1. Determining the network connectivity to a destination host
+Before tracing the route of the data, we need to identify if the destination host is reachable. We can determine the destination host is reachable by pinging the website.
+
+Eg: ping www.google.com 
+
+2. After we determine the network connectivity of a destination host, we can use the command lines below to trace the path taken by the packets accross the IP network.
+-tracert
+-traceroute
+
+
+PART B. PROTOCOLS
+Protocols are a set of rules which must be followed by all nodes on the network to transfer information. Without a standardized protocol, we would not be able to transfer information accross the network.
+
+Characteristics which determine successful communication:
+-identified sender and receiver
+-agreed upon method of communication
+-common language and grammar
+-speed and timing of delivery
+-confirmation or acknowledgment requirements
+
+
+PART C. DETERMINE THE MAC ADDRESS OF A HOST
+MAC ADDRESS = PHYSICAL ADDRESS/HARDWARE ADDRESS/ETHERNET ADDRESS/BURNED-IN ADDRESS (BIA)
+
+Every computer on an Ethernet local network has a Media Access Control (MAC) address that is burned into the Network Interface Card (NIC). Computer MAC addresses are usually displayed as 6 sets of two hexadecimal numbers separated by dashes or colons (example: 15-EF-A3-45-9B-57). First three set is the Organizationally Unique Identifier (OUI) which is the manufacturer code while the remaining three set of codes is the device's unique id code.
+
+We can use ipconfig /all command to find the device's MAC address.

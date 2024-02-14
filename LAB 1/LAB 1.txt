@@ -1,0 +1,28 @@
+LAB 1
+
+
+Components of a network:
+-end device = user's device
+-intermediary network devices = devices placed between the source and destination (Eg: switch, router)
+-network media = medium of connection
+
+PART A: How to find ip address?
+
+1. Using the command prompt
+In windows, type in cmd to open the command prompt and type in the commands below:
+-ipconfig
+-ipconfig/all
+
+ipconfig will provide basic info such as Ipv4 address, subnet mask and dafault gateway address.
+
+ipconfig/all will provide more information such as the MAC address and DHCP address and the DNS server address.
+
+MAC(physical address) = media access controller
+
+PART B: How to test if the TCP/IP stack is working fine?
+
+Method 1: Ping loopback address
+open command prompt (cmd), type in ping 127.0.0.1
+
+Method 2: Ping your IP address
+open command prompt (cmd), type in ping then followed by your IP address

@@ -1,0 +1,42 @@
+LAB 4 NETWORK DESIGN AND THE ACCESS LAYER
+
+NIC = NETWORK INTERFACE CARD/CONTROLLER
+ARP = ADDRESS RESOLUTION PROTOCOL (CORRELATE THE IP ADDRESS AND THE MAC ADDRESS)
+
+PART A: VIEW WIRELESS AND WIRED NIC INFORMATION ON THE COMPUTER
+To view the wireless and wired nic information, click start and head to network connections.
+
+For wireless NIC, select wifi whereas for wired NIC, select the local area connection. After that, click the status option to display the information of the NIC. 
+
+The status option will show the information of the NIC such as the ssid and speed. Click details to access the network connection details.
+SSID = SERVICE SET IDENTIFIER (NAME OF THE WIRELESS LOCAL AREA NETWORK)
+SPEED = SPEED BETWEEN THE ROUTER AND THE NIC
+
+The MAC address can be found inside the network connection details. The MAC address found in the network connection details is the same as the MAC address found by typing ipconfig/all in the command prompt.
+
+PART B: OBSERVE DATA FLOW IN A LOCAL AREA NETWORK (LAN) USING CISCO PACKET TRACER 
+We can observe the flow of data in simulation mode. Simulation mode can be accessed in the bottom right-hand corner.
+
+Example: Observe flow of data from PC-A to PC-C
+-Select a simple PDU by clicking the closed envelope in the upper toolbar. With the envelop icon, click PC-A to establish the source. Click PC-C to establish the destination. 
+
+-Click on the play control in the simulation panel to see the flow of data. Observe the path of the ICMP and ARP envelopes. 
+
+-Once the buffer is full, click View Previous Event to continue.
+
+Important note:
+-Clicking reset simulation will not clear any configuration changes and dynamic entries such as the ARP table entries. It will only reset the simulation.
+
+-Clicking power cycle device on the bottom left will clear any configuration changes which are not saved and clear all dynamic table entries such as the ARP and MAC table entries.
+
+PART C: VIEWING ARP TABLES ON EACH PC USING CISCO PACKET TRACER
+there are 2 ways to look at the ARP table on the pc using cisco packet tracer:
+
+-Using the magnifying glass tool
+click on the magnifying glass tool on the upper tool bar, click on the pc and select ARP table.
+
+-Typing the command arp -a on the command prompt
+click on the pc and head to the desktop tab, select command prompt and type in the command arp -a.
+
+
+
