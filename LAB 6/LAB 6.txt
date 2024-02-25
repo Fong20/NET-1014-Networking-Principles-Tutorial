@@ -1,0 +1,28 @@
+LAB 6
+
+IDENTIFY THE IPV6 ADDRESS
+IPV4 - 64 BITS
+IPV6 - 128 BITS
+
+Why use IPV6
+- better security
+- can support more hosts
+- Faster data transmission speeds
+
+
+Types of IPV6 address
+loopback, global unicast, link-local address, unique-local address , multicast
+
+How?
+-use zero compression rule (compress all the subsequent 0's)
+
+Because IPV6 addresses are longer, it can be compressed to a simpler form to their abbrieviated notation.
+
+
+
+The DNS translates the domain name into an IP address to allow the source to host to reach the destination host.
+
+We can verify DNS operation by typing nslookup on the command prompt.
+
+
+

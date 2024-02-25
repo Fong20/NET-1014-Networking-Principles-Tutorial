@@ -1,0 +1,9 @@
+LAB 5
+
+Formula to calculate the number of hosts on the network.
+
+2 power number of host bits - 2 = number of hosts
+
+Dynamic host control protocol (DHCP) = The router generates an IP address for the device in real time.
+
+Default gateway = router IP address
